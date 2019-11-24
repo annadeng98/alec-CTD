@@ -1,0 +1,62 @@
+.header {
+  width: 200px;
+  margin: auto;
+  color: #48D1E1;
+}
+
+@-webkit-keyframes blackWhite {
+  0% {color: #ff0000; }
+  50% {color: #ff0000; }
+  51% {color: #48D1E1; }
+  100% {color: #48D1E1; }
+}
+
+.header {
+    color: #48D1E1;
+    -webkit-animation-name: blackWhite;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 2s;
+}
+
+.p1{
+  color: #48D1E1;
+  font-size:
+}
+.image {
+  height: 250px;
+  width: 290px;
+}
+.image-container {
+  display: flex;
+
+}
+
+.caption{
+  margin-left: 120px;
+}
+
+.image-right{
+  margin-left: 30px
+}
+
+.outer-container {
+  display: flex;
+}
+
+.video {
+  height: 200px;
+  width: 200px;
+}
+
+.link {
+  font-size: 50px;
+}
+
+.tree-picture {
+  height: 525px;
+  width: 450px;
+}
+
+.insta-container{
+  display: flex;
+}
